@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "initial publish with beachball",
-  "packageName": "codemad",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch"
-}
