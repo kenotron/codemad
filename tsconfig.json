@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2016"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "src"
+  },
+  "include": ["src/mod.ts", "src/__tests__/**/*"],
+  "exclude": ["src/__tests__/fixtures/**/*"]
+}

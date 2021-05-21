@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`typescript mods replaces a single prop name in jsx 1`] = `
+"import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = (props: any) => {
+  return <div>{props.hello}</div>;
+};
+
+ReactDOM.render(<App moddedProp=\\"world\\" />, document.createElement('div'));
+"
+`;
+
+exports[`typescript mods replaces a single prop value in jsx 1`] = `
+"import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = (props: any) => {
+  return <div>{props.hello}</div>;
+};
+
+ReactDOM.render(<App hello=\\"modded\\" />, document.createElement('div'));
+"
+`;

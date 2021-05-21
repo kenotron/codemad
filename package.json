@@ -1,0 +1,40 @@
+{
+  "name": "codemad",
+  "version": "1.3.1",
+  "description": "Mod that code like you're mad!",
+  "main": "./lib/mod.js",
+  "types": "./lib/mod.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w --preserveWatchOutput",
+    "start-test": "jest --watch",
+    "test": "jest",
+    "update-snapshots": "jest --updateSnapshot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenotron/codemad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenotron/codemad/issues"
+  },
+  "homepage": "https://github.com/kenotron/codemad#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.10",
+    "@types/glob": "^7.1.1",
+    "@types/mock-fs": "^3.6.30",
+    "typescript": "^3.3.3333",
+    "jest": "^24.3.1",
+    "ts-jest": "^24.0.0",
+    "mock-fs": "^4.8.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.4.0"
+  }
+}
